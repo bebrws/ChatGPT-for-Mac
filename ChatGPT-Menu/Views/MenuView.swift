@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WebKit
 
 struct MenuView: View {
     @EnvironmentObject var appState: AppState

@@ -21,6 +21,17 @@
 		A2E051FE29BC57C900DFDC30 /* PageZoomLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E051FD29BC57C900DFDC30 /* PageZoomLevel.swift */; };
 		A2E0520029BC57EE00DFDC30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E051FF29BC57EE00DFDC30 /* AppDelegate.swift */; };
 		A2E0520229BC582A00DFDC30 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E0520129BC582A00DFDC30 /* AppState.swift */; };
+		B18BB6A729EBB0B9006A0725 /* ChatGPTWrapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18BB6A629EBB0B9006A0725 /* ChatGPTWrapperApp.swift */; };
+		B18BB6A929EBB0B9006A0725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18BB6A829EBB0B9006A0725 /* ContentView.swift */; };
+		B18BB6AB29EBB0BA006A0725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18BB6AA29EBB0BA006A0725 /* Assets.xcassets */; };
+		B18BB6AE29EBB0BA006A0725 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18BB6AD29EBB0BA006A0725 /* Preview Assets.xcassets */; };
+		B18BB6B329EBB13A006A0725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E051DD29B6A18900DFDC30 /* Assets.xcassets */; };
+		B18BB6B429EBB13F006A0725 /* scripts.js in Resources */ = {isa = PBXBuildFile; fileRef = A2E051EC29B99E0F00DFDC30 /* scripts.js */; };
+		B18BB6B529EBB141006A0725 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = A2E051EE29B99E2400DFDC30 /* styles.css */; };
+		B18BB6B929EBB164006A0725 /* PageZoomLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E051FD29BC57C900DFDC30 /* PageZoomLevel.swift */; };
+		B18BB6BB29EBB225006A0725 /* iosAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18BB6BA29EBB225006A0725 /* iosAppState.swift */; };
+		B18BB6BD29EBB2A5006A0725 /* IOSSettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18BB6BC29EBB2A5006A0725 /* IOSSettingsScreen.swift */; };
+		B18BB6C129EBB468006A0725 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18BB6C029EBB468006A0725 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +51,14 @@
 		A2E051FF29BC57EE00DFDC30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2E0520129BC582A00DFDC30 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		A2E0520329BC586600DFDC30 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		B18BB6A429EBB0B9006A0725 /* ChatGPTWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPTWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18BB6A629EBB0B9006A0725 /* ChatGPTWrapperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTWrapperApp.swift; sourceTree = "<group>"; };
+		B18BB6A829EBB0B9006A0725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B18BB6AA29EBB0BA006A0725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B18BB6AD29EBB0BA006A0725 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B18BB6BA29EBB225006A0725 /* iosAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosAppState.swift; sourceTree = "<group>"; };
+		B18BB6BC29EBB2A5006A0725 /* IOSSettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSSettingsScreen.swift; sourceTree = "<group>"; };
+		B18BB6C029EBB468006A0725 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B18BB6A129EBB0B9006A0725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -58,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				A2E051D829B6A18800DFDC30 /* ChatGPT-Menu */,
+				B18BB6A529EBB0B9006A0725 /* ChatGPTWrapper */,
 				A2E051D729B6A18800DFDC30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				A2E051D629B6A18800DFDC30 /* ChatGPT for Mac.app */,
+				B18BB6A429EBB0B9006A0725 /* ChatGPTWrapper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +139,7 @@
 				A2E051F629BC56F900DFDC30 /* SettingsScreen.swift */,
 				A2E051F829BC572E00DFDC30 /* VisualEffect.swift */,
 				A2E051FA29BC574400DFDC30 /* WebView.swift */,
+				B18BB6BC29EBB2A5006A0725 /* IOSSettingsScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,8 +149,29 @@
 			children = (
 				A2E051FD29BC57C900DFDC30 /* PageZoomLevel.swift */,
 				A2E0520129BC582A00DFDC30 /* AppState.swift */,
+				B18BB6BA29EBB225006A0725 /* iosAppState.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B18BB6A529EBB0B9006A0725 /* ChatGPTWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				B18BB6A629EBB0B9006A0725 /* ChatGPTWrapperApp.swift */,
+				B18BB6A829EBB0B9006A0725 /* ContentView.swift */,
+				B18BB6AA29EBB0BA006A0725 /* Assets.xcassets */,
+				B18BB6AC29EBB0BA006A0725 /* Preview Content */,
+				B18BB6C029EBB468006A0725 /* WebView.swift */,
+			);
+			path = ChatGPTWrapper;
+			sourceTree = "<group>";
+		};
+		B18BB6AC29EBB0BA006A0725 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B18BB6AD29EBB0BA006A0725 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +197,23 @@
 			productReference = A2E051D629B6A18800DFDC30 /* ChatGPT for Mac.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B18BB6A329EBB0B9006A0725 /* ChatGPTWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18BB6AF29EBB0BA006A0725 /* Build configuration list for PBXNativeTarget "ChatGPTWrapper" */;
+			buildPhases = (
+				B18BB6A029EBB0B9006A0725 /* Sources */,
+				B18BB6A129EBB0B9006A0725 /* Frameworks */,
+				B18BB6A229EBB0B9006A0725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatGPTWrapper;
+			productName = ChatGPTWrapper;
+			productReference = B18BB6A429EBB0B9006A0725 /* ChatGPTWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,11 +221,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					A2E051D529B6A18800DFDC30 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					B18BB6A329EBB0B9006A0725 = {
+						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
@@ -179,6 +249,7 @@
 			projectRoot = "";
 			targets = (
 				A2E051D529B6A18800DFDC30 /* ChatGPT for Mac */,
+				B18BB6A329EBB0B9006A0725 /* ChatGPTWrapper */,
 			);
 		};
 /* End PBXProject section */
@@ -192,6 +263,18 @@
 				A2E051EF29B99E2400DFDC30 /* styles.css in Resources */,
 				A2E051DE29B6A18900DFDC30 /* Assets.xcassets in Resources */,
 				A2E051ED29B99E0F00DFDC30 /* scripts.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18BB6A229EBB0B9006A0725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18BB6AE29EBB0BA006A0725 /* Preview Assets.xcassets in Resources */,
+				B18BB6B429EBB13F006A0725 /* scripts.js in Resources */,
+				B18BB6B329EBB13A006A0725 /* Assets.xcassets in Resources */,
+				B18BB6B529EBB141006A0725 /* styles.css in Resources */,
+				B18BB6AB29EBB0BA006A0725 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +294,19 @@
 				A2E051F529BC56DC00DFDC30 /* MenuView.swift in Sources */,
 				A2E051FE29BC57C900DFDC30 /* PageZoomLevel.swift in Sources */,
 				A2E051DA29B6A18800DFDC30 /* ChatGPT_MenuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18BB6A029EBB0B9006A0725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18BB6BD29EBB2A5006A0725 /* IOSSettingsScreen.swift in Sources */,
+				B18BB6A929EBB0B9006A0725 /* ContentView.swift in Sources */,
+				B18BB6B929EBB164006A0725 /* PageZoomLevel.swift in Sources */,
+				B18BB6A729EBB0B9006A0725 /* ChatGPTWrapperApp.swift in Sources */,
+				B18BB6BB29EBB225006A0725 /* iosAppState.swift in Sources */,
+				B18BB6C129EBB468006A0725 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,11 +433,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "ChatGPT-Menu/ChatGPT_Menu.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatGPT-Menu/Preview Content\"";
-				DEVELOPMENT_TEAM = 3XA733JUMG;
+				DEVELOPMENT_TEAM = J224A9FKGZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -354,7 +451,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "Makeshift-Labs.ChatGPT-Menu";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbarrows.chatgptmacwrapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -368,11 +465,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "ChatGPT-Menu/ChatGPT_Menu.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatGPT-Menu/Preview Content\"";
-				DEVELOPMENT_TEAM = 3XA733JUMG;
+				DEVELOPMENT_TEAM = J224A9FKGZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -385,10 +483,73 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "Makeshift-Labs.ChatGPT-Menu";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbarrows.chatgptmacwrapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B18BB6B029EBB0BA006A0725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatGPTWrapper/Preview Content\"";
+				DEVELOPMENT_TEAM = J224A9FKGZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbarrows.ChatGPTWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B18BB6B129EBB0BA006A0725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatGPTWrapper/Preview Content\"";
+				DEVELOPMENT_TEAM = J224A9FKGZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbarrows.ChatGPTWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -409,6 +570,15 @@
 			buildConfigurations = (
 				A2E051E629B6A18900DFDC30 /* Debug */,
 				A2E051E729B6A18900DFDC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18BB6AF29EBB0BA006A0725 /* Build configuration list for PBXNativeTarget "ChatGPTWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18BB6B029EBB0BA006A0725 /* Debug */,
+				B18BB6B129EBB0BA006A0725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
